@@ -2,217 +2,74 @@
 <html lang="pt-br">
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
-    <style>
-        body {
-            background-color: #212529;
-            color: #f8f9fa;
-        }
-
-        .lead {
-            color: #ced4da;
-        }
-
-        .card {
-            background-color: #343a40;
-            border: 1px solid #495057;
-        }
-
-        .card-title {
-            color: #ffffff;
-        }
-
-        .card-text {
-            color: #ced4da;
-        }
-
-        .modal-content {
-            background-color: #212529;
-            border: 1px solid #495057;
-        }
-
-        .modal-header,
-        .modal-footer {
-            border-color: #495057;
-        }
-
-        .modal-title {
-            color: #ffffff;
-        }
-
-        .btn-link {
-            color: #17a2b8;
-        }
-
-        .btn-link:hover {
-            color: #117a8b;
-        }
-
-        .badge {
-            font-size: 1rem;
-        }
-    </style>
-    <title>Guia de Capa com a UMP</title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" />
+    <title>Guia: Como Dar Capa com UMP no Free Fire</title>
 </head>
 
 <body>
-    <header class="container text-center">
-        <img src="https://via.placeholder.com/150/FF5733/FFFFFF?text=UMP+Pro" alt="Imagem de uma UMP"
-            class="rounded-circle" width="150" height="150">
-        <p class="lead">Guia Completo</p>
-        <h1>Como Dar Capa com a UMP no Free Fire</h1>
-        <p>O guia a seguir detalha como dar "capa" no Free Fire. O termo "dar capa" refere-se a acertar um tiro na
-            cabeça do adversário. A seguir, veja um guia completo para dominar essa técnica.</p>
-        <p>Dicas e Técnicas</p>
-        <div>
-            <p class="badge bg-secondary">Sensibilidade</p>
-            <p class="badge bg-secondary">Controles</p>
-            <p class="badge bg-secondary">Arrastar Botão</p>
-            <p class="badge bg-secondary">Treino</p>
-        </div>
+    <header class="container text-center py-5">
+        <img src="img/avatar-perfil.png" alt="avatar da Fernanda" class="rounded-circle mb-3" width="150" height="150" />
+        <h1 class="mb-3">Guia: Como Dar Capa com UMP no Free Fire</h1>
+        <p class="lead">Aprenda a proteger seu time com essa submetralhadora eficiente!</p>
     </header>
 
-    <main class="container mt-5">
-        <h2>Seções do Guia</h2>
-        <div class="row">
-            <div class="col-md-4">
-                <div class="card">
-                    <img src="https://via.placeholder.com/400x200/5DADE2/FFFFFF?text=Sensibilidade" class="card-img-top"
-                        alt="Imagem sobre sensibilidade">
-                    <div class="card-body">
-                        <h5 class="card-title">1. Configurações de Sensibilidade e Controles</h5>
-                        <p class="card-text">A sensibilidade é a base para o tiro na cabeça. Uma sensibilidade ajustada
-                            permite que você mova a mira com rapidez e precisão.</p>
-                        <button type="button" class="btn btn-link" data-bs-toggle="modal" data-bs-target="#modal1">Veja
-                            mais</button>
-                    </div>
-                </div>
-            </div>
+    <main class="container">
+        <section class="mb-5">
+            <h2>1. Conheça sua arma — UMP</h2>
+            <ul>
+                <li>UMP é uma submetralhadora com bom dano e boa cadência.</li>
+                <li>Ideal para combates de médio alcance.</li>
+                <li>Tem um bom controle de recuo, ótimo para dar tiros precisos.</li>
+            </ul>
+        </section>
 
-            <div class="col-md-4">
-                <div class="card">
-                    <img src="https://via.placeholder.com/400x200/F1C40F/000000?text=Arrastar+Botão"
-                        class="card-img-top" alt="Imagem sobre arrastar botão">
-                    <div class="card-body">
-                        <h5 class="card-title">2. A Técnica do "Arrastar Botão"</h5>
-                        <p class="card-text">Essa é a principal técnica para dar capa. Ela consiste em arrastar o botão
-                            de tiro para cima no momento exato em que você atira.</p>
-                        <button type="button" class="btn btn-link" data-bs-toggle="modal" data-bs-target="#modal2">Veja
-                            mais</button>
-                    </div>
-                </div>
-            </div>
+        <section class="mb-5">
+            <h2>2. Escolha o lugar certo para dar capa</h2>
+            <ul>
+                <li>Fique em uma posição estratégica, onde você consiga proteger seus aliados e ter boa visão do inimigo.</li>
+                <li>Use paredes, caixas, pedras e carros para se proteger.</li>
+                <li>Posicione-se de modo que possa ver os inimigos chegando sem se expor demais.</li>
+            </ul>
+        </section>
 
-            <div class="col-md-4">
-                <div class="card">
-                    <img src="https://via.placeholder.com/400x200/2ECC71/FFFFFF?text=Dicas+Adicionais"
-                        class="card-img-top" alt="Imagem sobre dicas adicionais">
-                    <div class="card-body">
-                        <h5 class="card-title">3. Dicas Adicionais para Vários Cenários</h5>
-                        <p class="card-text">A prática leva à perfeição. Use as dicas a seguir para aprimorar sua
-                            técnica.</p>
-                        <button type="button" class="btn btn-link" data-bs-toggle="modal" data-bs-target="#modal3">Veja
-                            mais</button>
-                    </div>
-                </div>
-            </div>
-        </div>
+        <section class="mb-5">
+            <h2>3. Como dar capa na prática</h2>
+            <ul>
+                <li>Enquanto um aliado avança ou recua, fique na posição de defesa.</li>
+                <li>Use a UMP para dar tiros curtos e certeiros, para não perder muita mira.</li>
+                <li>Cuidado para não exagerar no spray; controle o recuo puxando a mira levemente para baixo.</li>
+                <li>Use rajadas curtas para economizar munição e aumentar a precisão.</li>
+            </ul>
+        </section>
+
+        <section class="mb-5">
+            <h2>4. Comunicação é tudo</h2>
+            <ul>
+                <li>Avise seu time onde está o inimigo.</li>
+                <li>Diga quando vai dar capa para que seus aliados possam avançar ou recuar com segurança.</li>
+                <li>Peça ajuda se estiver com a vida baixa ou se o inimigo estiver te pressionando.</li>
+            </ul>
+        </section>
+
+        <section class="mb-5">
+            <h2>5. Dicas extras para UMP</h2>
+            <ul>
+                <li>Use o colete e capacete para aguentar mais dano.</li>
+                <li>Se possível, equipe acessórios na UMP (como silenciador e mira) para melhorar sua performance.</li>
+                <li>Pratique o movimento de "peek" (aparecer e sumir da cobertura rapidamente) para evitar ser um alvo fácil.</li>
+            </ul>
+        </section>
     </main>
 
-    <div class="modal fade" id="modal1" tabindex="-1">
-        <div class="modal-dialog">
-            <div class="modal-content">
-                <div class="modal-header">
-                    <h5 class="modal-title">Configurações de Sensibilidade e Controles</h5>
-                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-                </div>
-                <div class="modal-body">
-                    <p>A sensibilidade é a base para o tiro na cabeça. Uma sensibilidade ajustada permite que você mova a
-                        mira com rapidez e precisão.</p>
-                    <ul>
-                        <li><strong>Sensibilidade Geral:</strong> Comece com a sensibilidade geral em 90 ou 100. Isso ajuda
-                            a arrastar a mira rapidamente.</li>
-                        <li><strong>Sensibilidade Red Dot:</strong> Mantenha entre 80 e 95. Uma sensibilidade mais alta
-                            pode ser instável, enquanto uma mais baixa pode dificultar o ajuste da mira.</li>
-                        <li><strong>Controles Personalizados:</strong> Posicione o botão de tiro em uma área acessível. Muitos
-                            jogadores profissionais preferem um tamanho de 40 a 55 para o botão de tiro, pois isso evita
-                            toques acidentais e facilita o "arrasto".</li>
-                    </ul>
-                    <img src="https://via.placeholder.com/400x300/5DADE2/FFFFFF?text=Configurações+do+Jogo"
-                        class="img-fluid w-100 mt-3" alt="Imagem de configurações do jogo">
-                </div>
-            </div>
-        </div>
-    </div>
-
-    <div class="modal fade" id="modal2" tabindex="-1">
-        <div class="modal-dialog">
-            <div class="modal-content">
-                <div class="modal-header">
-                    <h5 class="modal-title">A Técnica do "Arrastar Botão"</h5>
-                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-                </div>
-                <div class="modal-body">
-                    <p>Essa é a principal técnica para dar capa. Ela consiste em arrastar o botão de tiro para cima no
-                        momento exato em que você atira.</p>
-                    <ul>
-                        <li><strong>Mira Branca:</strong> Certifique-se de que a mira branca (a mira sem segurar o botão
-                            de atirar) esteja levemente abaixo do inimigo.</li>
-                        <li><strong>Movimento:</strong> Ao ver o inimigo, segure o botão de tiro e, em um movimento rápido
-                            e contínuo, arraste-o para cima. O movimento deve ser rápido o suficiente para levar a mira da
-                            barriga ou peito até a cabeça.</li>
-                        <li><strong>Ajuste:</strong> O segredo está em ajustar a força e a velocidade do "arrasto" de acordo
-                            com a distância do inimigo.</li>
-                        <ul>
-                            <li><strong>Curta Distância:</strong> O movimento deve ser rápido e com mais força, já que o
-                                inimigo está próximo.</li>
-                            <li><strong>Média a Longa Distância:</strong> O movimento deve ser mais suave e lento para que a
-                                mira não passe da cabeça do inimigo.</li>
-                        </ul>
-                    </ul>
-                    <img src="https://via.placeholder.com/400x300/F1C40F/000000?text=Exemplo+de+Arraste"
-                        class="img-fluid w-100 mt-3" alt="Imagem de exemplo de arrastar botão">
-                </div>
-            </div>
-        </div>
-    </div>
-
-    <div class="modal fade" id="modal3" tabindex="-1">
-        <div class="modal-dialog">
-            <div class="modal-content">
-                <div class="modal-header">
-                    <h5 class="modal-title">Dicas Adicionais para Vários Cenários</h5>
-                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-                </div>
-                <div class="modal-body">
-                    <p>A prática leva à perfeição. Use as dicas a seguir para aprimorar sua técnica.</p>
-                    <ul>
-                        <li><strong>Armas:</strong> A técnica de "arrastar o botão" funciona melhor com armas de rajada ou
-                            tiros únicos, como as escopetas (SPAS12, M1014) ou rifles de assalto.</li>
-                        <li><strong>Posicionamento:</strong> Mantenha-se em movimento. Pular e atirar ou se mover em
-                            círculos enquanto atira pode confundir o inimigo.</li>
-                        <li><strong>Modo de Treinamento:</strong> Pratique a técnica no modo de treinamento antes de entrar
-                            em uma partida real. Isso ajuda a criar a memória muscular necessária para o movimento.</li>
-                        <li><strong>Erros Comuns:</strong> Não desista se não der certo nas primeiras tentativas. O treino
-                            contínuo é fundamental. O erro mais comum é arrastar o botão para o lado ou de forma brusca
-                            demais, fazendo a mira "espanar" (passar da cabeça do inimigo).</li>
-                    </ul>
-                    <img src="https://via.placeholder.com/400x300/2ECC71/FFFFFF?text=Dicas+e+Treino"
-                        class="img-fluid w-100 mt-3" alt="Imagem de dicas e treino">
-                </div>
-            </div>
-        </div>
-    </div>
-
-    <footer class="container py-5 text-center">
-        <p>Criado para jogadores de Free Fire</p>
-        <p class="my-5">© Copyright 2024. Guia de Free Fire</p>
+    <footer class="container text-center py-4">
+        <p>Guia criado para ajudar jogadores a melhorarem no Free Fire. Boa sorte e bom jogo!</p>
     </footer>
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
 </body>
 
 </html>
+
+  
