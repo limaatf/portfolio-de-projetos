@@ -1,26 +1,28 @@
+
 document.addEventListener('DOMContentLoaded', function () {
-    const botaoGuiaUMP = document.getElementById('botao-guia-ump');
-    const opcoesGuia = document.getElementById('opcoes-guia');
+    const botaoGuiaDicas = document.getElementById('botao-dicas');
+    const dicasRapidas = document.getElementById('dicas-rapidas');
 
-    botaoGuiaUMP.addEventListener('click', function () {
-        botaoGuiaUMP.classList.toggle('rotacao-botao');
-        opcoesGuia.classList.toggle('mostrar-guia');
+    // Toggle para mostrar ou esconder as dicas rápidas
+    botaoGuiaDicas.addEventListener('click', function () {
+        botaoGuiaDicas.classList.toggle('rotacao-botao');
+        dicasRapidas.classList.toggle('d-block');
     });
 
-    const dicaSensibilidade = document.getElementById('dica-sensibilidade');
-    const dicaMira = document.getElementById('dica-mira');
-    const dicaDistancia = document.getElementById('dica-distancia');
+    // Acessibilidade: Aumentar e Diminuir Fonte
+    const aumentarFonteBtn = document.getElementById('aumentar-fonte');
+    const diminuirFonteBtn = document.getElementById('diminuir-fonte');
 
-    dicaSensibilidade.addEventListener('click', function () {
-        alert("🔧 Sensibilidade recomendada: Alta. Ajuste a geral entre 85 e 95.");
+    let tamanhoFonte = 1;
+
+    aumentarFonteBtn.addEventListener('click', function () {
+        tamanhoFonte += 0.1;
+        document.body.style.fontSize = `${tamanhoFonte}rem`;
     });
 
-    dicaMira.addEventListener('click', function () {
-        alert("🎯 Puxe a mira levemente para cima após o primeiro disparo. Evite arrastar demais.");
-    });
-
-    dicaDistancia.addEventListener('click', function () {
-        alert("📏 Ideal para curta/média distância. Aproxime-se e use o movimento lateral.");
+    diminuirFonteBtn.addEventListener('click', function () {
+        tamanhoFonte = Math.max(0.8, tamanhoFonte - 0.1); // Evita fontes muito pequenas
+        document.body.style.fontSize = `${tamanhoFonte}rem`;
     });
 });
 
